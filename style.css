@@ -27,7 +27,7 @@
 
 .About:hover::before{
     padding-left: 30px;
-    content: About;
+    content: 'About';
 }
 
 
