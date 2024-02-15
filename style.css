@@ -73,16 +73,47 @@ nav{
 
 
 #aboutMe{
-    background-color: blue;
-    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1c1616;
+    color: #eeeeee;
+    height: 90vh;
 }
-
+#aboutMe h2{
+    font-size: 2em;
+    text-decoration: underline;
+    color: #ff1e00;
+    margin-bottom: 2vh;
+}
+#aboutMe p{
+    margin: 0px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+#aboutMe img{
+    max-width: 100%;
+    margin-top: 4vh;
+}
+#aboutMe div{
+    max-width: 800px;
+    max-height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    padding: 5px;
+}
+#aboutMe span{
+    color: #ff1e00;
+}
 
 
 #myWork{
     background-color: green;
     height: 60vh;
 }
+
+
 
 
 
