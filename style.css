@@ -1,66 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h1 span{
+    color: #FF1E00;
+}
+main{
     background-color: black;
+    height: 100vh;
 }
-
-
 .font-display{
-    font-size: 6rem;
     text-decoration: none;
+    font-size: 6rem;
 }
-
 .container{
     margin-left: 19vw;
     margin-top: 24vh;
 }
 
-
-
-.About {
-    color: white;
-}
-
-.About::before{
+.aboutTag::before{
+    color: #EEEEEE;
     content: 'Hello.';
 }
-
-.About:hover::before{
+.aboutTag:hover::before{
+    font-size: 5rem;
     padding-left: 30px;
+    text-decoration: underline;
     content: 'About';
 }
 
-
-
-.Work {
-    color: red;
-}
-
-.Work::before{
+.workTag::before{
+    color: #FF1E00;
     content: "I am";
 }
-
-.Work:hover::before{
+.workTag:hover::before{
+    font-size: 5rem;
     padding-left: 30px;
+    text-decoration: underline;
     content: 'Work';
 }
 
-
-
-
-.Contact {
-    color: red;
-}
-
-.Contact::before{
+.contactTag::before{
+    color: #FF1E00;
     content: 'Mubashshir';
 }
-
-.Contact:hover::before{
+.contactTag:hover::before{
+    font-size: 5rem;
     padding-left: 30px;
+    text-decoration: underline;
     content: 'Contact';
 }
 
 nav{
+    text-align: center;
+    background-color: black;
     color: white;
+}
+
+
+#aboutMe{
+    background-color: blue;
+    height: 60vh;
+}
+
+
+
+#myWork{
+    background-color: green;
+    height: 60vh;
+}
+
+
+
+#contactMe{
+    background-color: red;
+    height: 60vh;
 }
