@@ -13,6 +13,7 @@ body{
 }
 
 h1{
+    color: #EEEEEE;
     font-size: 2rem;
 }
 
@@ -71,6 +72,12 @@ nav{
     color: white;
 }
 
+.subHeading{
+    font-size: 4rem;
+    text-decoration: underline;
+    color: #ff1e00;
+    margin-bottom: 7vh;
+}
 
 #aboutMe{
     display: flex;
@@ -79,13 +86,7 @@ nav{
     text-align: center;
     background-color: #1c1616;
     color: #eeeeee;
-    height: 90vh;
-}
-#aboutMe h2{
-    font-size: 2em;
-    text-decoration: underline;
-    color: #ff1e00;
-    margin-bottom: 2vh;
+    height: 100vh;
 }
 #aboutMe p{
     margin: 0px;
@@ -109,15 +110,72 @@ nav{
 
 
 #myWork{
-    background-color: green;
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+    background-color: #2b2b2b;
+    height: 100vh;
 }
 
 
-
-
-
 #contactMe{
-    background-color: red;
-    height: 60vh;
+    background-color: #EEEEEE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#contactMe div{
+    margin: 3vh 3vh 3vh 3vh;
+}
+
+
+#myWork {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects{
+    margin: 2vh 3vh 3vh 3vh;
+    justify-content: center;
+    display: flex;
+}
+.project-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #000;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #444;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    margin-bottom: 10px;
+}
+
+.project-link {
+    margin-top: 3vh;
+    display: inline-block;
+    background-color: #ff1e00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-link:hover {
+    background-color: #ff4500;
 }
