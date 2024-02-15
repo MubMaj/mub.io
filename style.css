@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.font-display{
+    font-size: 6rem;
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 19vw;
+    margin-top: 24vh;
+}
+
+
+
+.About {
+    color: white;
+}
+
+.About::before{
+    content: 'Hello.';
+}
+
+.About:hover::before{
+    padding-left: 30px;
+    content: About;
+}
+
+
+
+.Work {
+    color: red;
+}
+
+.Work::before{
+    content: "I am";
+}
+
+.Work:hover::before{
+    padding-left: 30px;
+    content: 'Work';
+}
+
+
+
+
+.Contact {
+    color: red;
+}
+
+.Contact::before{
+    content: 'Mubashshir';
+}
+
+.Contact:hover::before{
+    padding-left: 30px;
+    content: 'Contact';
+}
+
+nav{
+    color: white;
+}
