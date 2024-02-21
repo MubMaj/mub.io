@@ -1,81 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 html {
     scroll-behavior: smooth;
 }
-
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body{
     display: flex;
     flex-direction: column;
 }
-
-h1{
-    color: #EEEEEE;
-    font-size: 2rem;
-}
-
-h1 span{
-    color: #FF1E00;
-}
-main{
-    background-color: black;
-    height: 100vh;
-}
-.font-display{
-    text-decoration: none;
-    font-size: 6rem;
+img{
+    height: auto;
+    max-width: 100%;
 }
 .container{
-    margin-left: 19vw;
-    margin-top: 24vh;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
 }
 
-.aboutTag::before{
-    color: #EEEEEE;
-    content: 'Hello.';
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2vw 6%;
 }
-.aboutTag:hover::before{
-    font-size: 5rem;
-    padding-left: 30px;
-    text-decoration: underline;
-    content: 'About';
-}
-
-.workTag::before{
-    color: #FF1E00;
-    content: "I am";
-}
-.workTag:hover::before{
-    font-size: 5rem;
-    padding-left: 30px;
-    text-decoration: underline;
-    content: 'Work';
-}
-
-.contactTag::before{
-    color: #FF1E00;
-    content: 'Mubashshir';
-}
-.contactTag:hover::before{
-    font-size: 5rem;
-    padding-left: 30px;
-    text-decoration: underline;
-    content: 'Contact';
+.logo{
+    width: 11vw;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 nav{
+    list-style: none;
+}
+nav li{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: "Anta", sans-serif;
+    padding: 0 2px;
+    display: inline-block;
+}
+nav li a{
+    transition: all .5s ease 0.3s;
+}
+nav li a:hover{
+    color: rgb(67 57 134);
+}
+.font-display{
+    color: #57b0ef;
+    padding: 1vw;
+    text-decoration: none;
+    font-style: bold;
+    display: inline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.heroBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 1.5vw;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.heroBody span{
+    color: #6b4fe7;
+}
+
+.heroBody h1{
+    margin-top: 10vh;
+    color: #051964;
+    font-size: 3rem;
+    font-family: "Anta", sans-serif;
     text-align: center;
-    background-color: black;
-    color: white;
+}
+
+.heroBody p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3vh;
+}
+
+.heroBody img{
+    position: relative;
+    width: 30vw;
+    max-width: 100%;
+    height: auto;
+    padding: 6vh 0 2vh 0;
+    margin: 2rem 0;
+}
+
+.heroFoot{
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0vh 2vw;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.Hero_img{
+    margin-bottom: -1vh;
+    width: 75vw;
 }
 
 .subHeading{
     font-size: 4rem;
     text-decoration: underline;
-    color: #ff1e00;
+    color: #ffffff;
     margin-bottom: 7vh;
 }
 
@@ -84,8 +129,9 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #1c1616;
-    color: #eeeeee;
+    font-family: "Anta", sans-serif;
+    background-color: #081b62;
+    color: #ffffff;
     height: 100vh;
 }
 #aboutMe p{
@@ -105,17 +151,9 @@ nav{
     padding: 5px;
 }
 #aboutMe span{
-    color: #ff1e00;
+    font-size: 2.1rem;
 }
 
-
-#myWork{
-    display: flex;
-    flex-direction: column;
-    color: #EEEEEE;
-    background-color: #2b2b2b;
-    height: 100vh;
-}
 
 
 #contactMe{
@@ -130,10 +168,14 @@ nav{
 
 
 #myWork {
-    background-color: #222;
-    color: #fff;
+    font-family: "Anta", sans-serif;
     padding: 50px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 100vh;
 }
 
 .projects{
