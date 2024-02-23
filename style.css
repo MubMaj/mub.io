@@ -223,7 +223,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     background-color: #57b0ef;
     color: #ffffff;
@@ -242,10 +242,9 @@ main {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  min-height: 110vh;
   width: 60vw;
   border-radius: 3em;
-  padding: 40px;
+  padding: 30px;
   border: 3px solid #fff;
 }
 
@@ -329,6 +328,7 @@ input[type=submit]:hover {
   }
 
   .formContainer{
+    font-size: 1em;
     width: 80vw;
   }
   .fromInput{
