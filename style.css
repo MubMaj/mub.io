@@ -61,7 +61,7 @@ nav li {
   display: inline-block;
 }
 nav li a {
-  transition: all 0.5s ease 0.3s;
+  transition: all 0.3s ease 0.1s;
 }
 nav li a:hover {
   color: rgb(67 57 134);
@@ -160,16 +160,6 @@ main {
   font-size: 2.1rem;
 }
 
-#contactMe {
-  background-color: #eeeeee;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-#contactMe div {
-  margin: 3vh 3vh 3vh 3vh;
-}
-
 #myWork {
   padding: 50px 0;
   text-align: center;
@@ -226,6 +216,74 @@ main {
   background-color: #ffffff;
 }
 
+
+/* contact me form  */
+#contactMe{
+    padding: 6vh 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #57b0ef;
+    color: #ffffff;
+}
+
+#contactMe h2{
+  text-shadow: 2px 2px #0b1d60;
+  margin-top: 2vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+.formContainer{
+  background-color: #0b1d60;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 110vh;
+  width: 60vw;
+  border-radius: 3em;
+  padding: 40px;
+  border: 3px solid #fff;
+}
+
+.formContainer label{
+  display: block;
+  text-align: left;
+  color: #fff;
+  font-size: 1.4em;
+  margin: 3vh 0 3vh 0;
+}
+
+.fromInput{
+  font-size: 1.2em;
+  max-width: 100%;
+  display: block;
+  width: 50vw;
+  padding: 12px;
+  border: 1px solid #0b1d60;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  margin-top: 3vh;
+  background-color: #45a049;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px #fff;
+}
+
+input[type=submit]:hover {
+  color: #fff;
+  background-color: #15517c;
+}
+
 /* responsive design  */
 
 @media (max-width: 736px) {
@@ -268,5 +326,12 @@ main {
   }
   .projects{
     flex-direction: column;
+  }
+
+  .formContainer{
+    width: 80vw;
+  }
+  .fromInput{
+    width: 70vw;
   }
 }
