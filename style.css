@@ -176,9 +176,11 @@ main {
   display: flex;
 }
 .project-card {
+  min-width: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   margin: 20px;
   background-color: #57b0ef;
   border: 3px solid #0b1d60;
@@ -189,6 +191,7 @@ main {
   max-width: 100%;
   height: auto;
   margin-top: 2vh;
+  padding: 1em;
 }
 
 .project-info {
@@ -196,8 +199,18 @@ main {
 }
 
 .project-info h3 {
+  font-size: 2em;
+  text-shadow: 6px 6px 4px #0b1d60;
   font-weight: bold;
   margin-bottom: 3vh;
+}
+
+.project-info dl {
+  text-align: justify;
+}
+
+.project-info dl dt{
+  font-size: 1.2em;
 }
 
 .project-link {
@@ -208,6 +221,7 @@ main {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+  box-shadow:  6px 6px 6px #000;
 }
 
 .project-link:hover {
