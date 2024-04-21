@@ -75,6 +75,7 @@ main {
   height: auto;
   align-items: stretch;
   justify-content: space-between;
+  margin: 2rem;
 }
 .heroBody {
   display: flex;
@@ -154,7 +155,7 @@ main {
   max-width: 800px;
   min-height: 100vh;
   overflow: hidden;
-  margin: auto;
+  margin: 8vh 5vw 8vh 5vw;
   padding: 5px;
 }
 #aboutMe span {
@@ -199,7 +200,8 @@ main {
   padding: 20px;
 }
 
-.project-info h3 {
+#myWork h3 {
+  margin: 0 2vw 0 2vw;
   font-size: 2em;
   text-shadow: 6px 6px 4px #0b1d60;
   font-weight: bold;
@@ -257,7 +259,7 @@ main {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 45vw;
   border-radius: 3em;
   padding: 30px;
   border: 3px solid #fff;
@@ -275,11 +277,15 @@ main {
   font-size: 1.2em;
   max-width: 100%;
   display: block;
-  width: 50vw;
+  width: 35vw;
   padding: 12px;
   border: 1px solid #0b1d60;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.formContainer textarea{
+  height: 20vh;
 }
 
 input[type=submit] {
@@ -353,10 +359,16 @@ input[type=submit]:hover {
     font-size: 1em;
     width: 80vw;
   }
+  .formContainer textarea{
+    height: 10vh;
+  }
   .fromInput{
-    width: 70vw;
+    width: 60vw;
   }
   .heroImgcontainer{
     width: 50vh;
+  }
+  #myWork h3 {
+    font-size: 1.5em;
   }
 }
