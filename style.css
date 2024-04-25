@@ -75,14 +75,13 @@ main {
   height: auto;
   align-items: stretch;
   justify-content: space-between;
-  margin: 2rem;
 }
 .heroBody {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3vh 1.5vw;
+  padding: 1.5vw;
   flex-grow: 1;
   flex-shrink: 0;
 }
@@ -121,6 +120,7 @@ main {
   margin: 0 auto;
   position: relative;
   width: auto;
+  margin-bottom: -2px;
 }
 .Hero_img {
   width: 75vw;
@@ -362,11 +362,14 @@ input[type=submit]:hover {
   .formContainer textarea{
     height: 10vh;
   }
+  .formContainer label {
+    margin: 1.2vh 0 1.2vh 0;
+  }
   .fromInput{
     width: 60vw;
   }
   .heroImgcontainer{
-    width: 50vh;
+    width: 45vh;
   }
   #myWork h3 {
     font-size: 1.5em;
