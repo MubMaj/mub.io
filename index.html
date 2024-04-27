@@ -1,136 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <title>Mub.io</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <a href="#"
-        ><img class="logo" src="./assets/img/logo3.png" alt="Logo"
-      /></a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#aboutMe" class="font-display">ABOUT</a>
-          </li>
-          <li>
-            <a href="#myWork" class="font-display">PROJECTS</a>
-          </li>
-          <li>
-            <a href="#contactMe" class="font-display">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="heroBody">
-        <div class="container">
-          <h1>Designer & Full-Stack Developer</h1>
-          <p>I love to build Minimal and Semantic Apps</p>
-        </div>
-        <div class="heroImgcontainer">
-          <img class="heroPhoto" src="./assets/img/Hero2.png" alt="" />
-        </div>
-      </div>
-      <div class="heroFoot">
-        <div class="container">
-          <img class="Hero_img" src="./assets/img/Hero.png" alt="Hero" />
-        </div>
-      </div>
-    </main>
-    <section id="aboutMe">
-      <div class="aboutInner">
-        <h2 class="subHeading">About Me</h2>
-        <p>
-          Welcome to my portfolio! <span>Mubashshir,</span> a seasoned Full-stack developer
-          with more then 2 years of hands-on experience, passionate about crafting seamless user experiences and robust software solutions. Proficient in HTML,
-          CSS, JavaScript along with React as well as Angular Framework, I thrive in delivering functional software solutions.<br><br>Currently, I am contributing to the success of Future Tech Data, utilizing HTML, CSS, Tailwind, Bootstrap, React and Angular. Throughout my career, I've had the privilege of collaborating with diverse clients, where I've honed my skills in understanding and translating requirements into efficient and innovative software solutions<br><br>I'm known for excelling as both a team player and as an individual contributor, with a quick-learning attitude.<br><br>If you're looking for a versatile and results-driven developer who is passionate about turning ideas into reality, I'd love to connect and discuss how we can work together to bring your vision to life.<br><br>Feel free to explore my portfolio and reach out via email or LinkedIn—I'm always open to new opportunities and challenges!
-        </p>
-      </div>
-    </section>
-    <section id="myWork">
-      <h2 class="subHeading" style="color: #081b62">Projects</h2>
-      <div class="projects">
-        <div class="project-card">
-          <div class="projectImgContainer">
-            <img
-            src="./assets/img/SnapSky.png"
-            alt="Project 1"
-            />
-          </div>
-          <h3>SnapSky</h3>
-          <div class="project-info">
-            <dl>
-                <dt>Overview:</dt>
-                <dd>- Snap Sky: An Angular-based weather app that blends innovation and usability, providing users with real-time weather updates in a visually stunning and user-friendly interface.</dd> <br>
-                <dt>API Integration:</dt>
-                <dd>- Maximizes user experience by integrating two powerful APIs. It utilizes a weather API for accurate weather data and a dynamic photo search API for captivating images that complement the weather information.</dd> <br>
-                <dt>Geolocation Functionality:</dt>
-                <dd>- To ensure accuracy and convenience, Snap Sky prompts users to grant access to their current location. By accessing the user's location, Snap Sky can deliver hyper-localized weather updates.</dd>
-            </dl>
-            <a href="https://snap-sky.netlify.app/" target="_blank" class="project-link">View Snap Sky</a>
-        </div>        
-        </div>
-        <div class="project-card">
-          <div class="projectImgContainer">
-            <img
-            src="./assets/img/animeGPT.png"
-            alt="Project 1"
-            />
-          </div>
-          <h3>AnimeGPT</h3>
-          <div class="project-info">
-            <dl>
-                <dt>Overview:</dt>
-                <dd>- AnimeGPT is your ultimate anime destination, featuring a Crunchyroll-inspired UI and a wealth of dynamic anime categories, enhanced with a GPT search feature to find an anime suitable for you.</dd> <br>
-                <dt>API Integration:</dt>
-                <dd>- Seamlessly integrates with the Jikan API to fetch comprehensive anime details and the OpenAI API for tailored anime recommendations.</dd> <br>
-                <dt>Authentication:</dt>
-                <dd>- Ensures secure authentication via Firebase, safeguarding user privacy and data. Please note that email verification is not implemented as this is a showcase project aimed at allowing users to explore AnimeGPT without barriers.</dd>
-            </dl>
-            <a href="https://animegpt.netlify.app/" target="_blank" class="project-link">Explore AnimeGPT</a>
-        </div>     
-        </div>
-        <div class="project-card">
-          <div class="projectImgContainer">
-            <img
-            src="./assets/img/Temp-Img.png"
-            alt="Project 1"
-            />
-          </div>
-          <h3>Exciting Projects in the Pipeline! 🚀</h3>
-          <div class="project-info">
-            <p>
-              Hang tight and stay tuned. I'll be back with something exciting real soon. Until then, let's keep the anticipation building together!
-            </p>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contactMe">
-      <h2 class="subHeading">Contact Me</h2>
-      <div class="formContainer">
-        <form name="Contact Me" data-netlify="true">
-          <label for="fname">First Name:</label>
-          <input class="fromInput" type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
-          <label for="lname">Last Name:</label>
-          <input class="fromInput" type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-          <label for="email">Email:</label>
-          <input class="fromInput" type="email" name="email" id="email" placeholder="example@domin.com" required>
-          
-          <label for="subject">Subject:</label>
-          <textarea class="fromInput" id="subject" name="subject" placeholder="Write something.."></textarea>
-          
-          <input class="fromInput" type="submit" value="Submit">
-        </form>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <title>Mub.io</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="#"><img class="logo" src="./assets/img/logo3.png" alt="Logo" /></a>
+    <nav>
+      <ul>
+        <li>
+          <a href="#aboutMe" class="font-display">ABOUT</a>
+        </li>
+        <li>
+          <a href="#myWork" class="font-display">PROJECTS</a>
+        </li>
+        <li>
+          <a href="#contactMe" class="font-display">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="heroBody">
+      <div class="container">
+        <h1>Designer & Full-Stack Developer</h1>
+        <p>I love to build Minimal and Semantic Apps</p>
+      </div>
+      <div class="heroImgcontainer">
+        <img class="heroPhoto" src="./assets/img/Hero2.png" alt="" />
+      </div>
     </div>
-    </body>
+    <div class="heroFoot">
+      <div class="container">
+        <img class="Hero_img" src="./assets/img/Hero.png" alt="Hero" />
+      </div>
+    </div>
+  </main>
+  <section id="aboutMe">
+    <div class="aboutInner">
+      <h2 class="subHeading">About Me</h2>
+      <p>
+        Welcome to my portfolio! <span>Mubashshir,</span> a seasoned Full-stack developer
+        with more then 2 years of hands-on experience, passionate about crafting seamless user experiences and robust
+        software solutions. Proficient in HTML,
+        CSS, JavaScript along with React as well as Angular Framework, I thrive in delivering functional software
+        solutions.<br><br>Currently, I am contributing to the success of Future Tech Data, utilizing HTML, CSS,
+        Tailwind, Bootstrap, React and Angular. Throughout my career, I've had the privilege of collaborating with
+        diverse clients, where I've honed my skills in understanding and translating requirements into efficient and
+        innovative software solutions<br><br>I'm known for excelling as both a team player and as an individual
+        contributor, with a quick-learning attitude.<br><br>If you're looking for a versatile and results-driven
+        developer who is passionate about turning ideas into reality, I'd love to connect and discuss how we can work
+        together to bring your vision to life.<br><br>Feel free to explore my portfolio and reach out via email or
+        LinkedIn—I'm always open to new opportunities and challenges!
+      </p>
+    </div>
+  </section>
+  <section id="myWork">
+    <h2 class="subHeading" style="color: #081b62">Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <div class="projectImgContainer">
+          <img src="./assets/img/SnapSky.png" alt="Project 1" />
+        </div>
+        <h3>SnapSky</h3>
+        <div class="project-info">
+          <dl>
+            <dt>Technology Used:</dt>
+            <dd>- Angular, Bootstrap, Html 5, CSS 3.</dd><br>
+            <dt>Overview:</dt>
+            <dd>- Snap Sky: An Angular-based weather app that blends innovation and usability, providing users with
+              real-time weather updates in a visually stunning and user-friendly interface.</dd> <br>
+            <dt>API Integration:</dt>
+            <dd>- Maximizes user experience by integrating two powerful APIs. It utilizes a weather API for accurate
+              weather data and a dynamic photo search API for captivating images that complement the weather
+              information.</dd> <br>
+            <dt>Geolocation Functionality:</dt>
+            <dd>- To ensure accuracy and convenience, Snap Sky prompts users to grant access to their current location.
+              By accessing the user's location, Snap Sky can deliver hyper-localized weather updates.</dd>
+          </dl>
+          <a href="https://snap-sky.netlify.app/" target="_blank" class="project-link">View Snap Sky</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="projectImgContainer">
+          <img src="./assets/img/animeGPT.png" alt="Project 1" />
+        </div>
+        <h3>AnimeGPT</h3>
+        <div class="project-info">
+          <dl>
+            <dt>Technology Used:</dt>
+            <dd>- React JS, Redux, Tailwind, Html 5, CSS 3</dd><br>
+            <dt>Overview:</dt>
+            <dd>- AnimeGPT is your ultimate anime destination, featuring a Crunchyroll-inspired UI and a wealth of
+              dynamic anime categories, enhanced with a GPT search feature to find an anime suitable for you.</dd> <br>
+            <dt>API Integration:</dt>
+            <dd>- Seamlessly integrates with the Jikan API to fetch comprehensive anime details and the OpenAI API for
+              tailored anime recommendations.</dd> <br>
+            <dt>Authentication:</dt>
+            <dd>- Ensures secure authentication via Firebase, safeguarding user privacy and data. Please note that email
+              verification is not implemented as this is a showcase project aimed at allowing users to explore AnimeGPT
+              without barriers.</dd>
+          </dl>
+          <a href="https://animegpt.netlify.app/" target="_blank" class="project-link">Explore AnimeGPT</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="projectImgContainer">
+          <img src="./assets/img/Temp-Img.png" style="width: 60%;" alt="Project 1" />
+        </div>
+        <h3>Exciting Projects in the Pipeline! 🚀</h3>
+        <div class="project-info">
+          <p>
+            Hang tight and stay tuned. I'll be back with something exciting real soon. Until then, let's keep the
+            anticipation building together!
+          </p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contactMe">
+    <h2 class="subHeading">Contact Me</h2>
+    <div class="formContainer">
+      <form name="Contact Me" data-netlify="true">
+        <label for="fname">First Name:</label>
+        <input class="fromInput" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+        <label for="lname">Last Name:</label>
+        <input class="fromInput" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email:</label>
+        <input class="fromInput" type="email" name="email" id="email" placeholder="example@domin.com" required>
+
+        <label for="subject">Subject:</label>
+        <textarea class="fromInput" id="subject" name="subject" placeholder="Write something.."></textarea>
+
+        <input class="fromInput" type="submit" value="Submit">
+      </form>
+  </section>
+  </div>
+</body>
+
 </html>

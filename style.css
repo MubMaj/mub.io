@@ -210,9 +210,8 @@ main {
 #myWork h3 {
   margin: 0 2vw 0 2vw;
   font-size: 2em;
-  text-shadow: 6px 6px 4px #0b1d60;
-  font-weight: bold;
-  margin-bottom: 3vh;
+  text-shadow: 2px 3px 2px #0b1d60;
+  font-weight: 400;
 }
 
 .project-info dl {
