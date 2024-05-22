@@ -309,6 +309,10 @@ input[type="submit"]:hover {
   background-color: #15517c;
 }
 
+#aboutMe a{
+  color: rgb(156, 72, 235);
+}
+
 .aboutInner {
   display: flex;
   flex-direction: column;
